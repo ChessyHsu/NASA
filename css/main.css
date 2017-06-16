@@ -1,0 +1,39 @@
+#title{
+	text-align: center;
+	font-family: 'Overpass', sans-serif;
+    margin-bottom: 30px;
+}
+.chart{
+     margin: 10px;
+}
+/*line chart*/
+body { font: 16px Arial;}
+
+path { 
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+/*topology*/
+.link {
+  stroke: #aaa;
+}
+
+.node text {
+stroke:#333;
+cursos:pointer;
+}
+
+.node circle{
+stroke:#fff;
+stroke-width:3px;
+fill:steelblue;
+}
