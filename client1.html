@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
+    <!-- load the d3.js library -->
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Bubbler+One|Overpass" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+</head>
+
+<body>
+    <div class="col-md-12" id="title">
+        <h1>Network Supervisor</h1>
+    </div>
+    <div class="chart">
+        <div id="packetloss" style="background-color:#aaa">
+            <h3>packetloss</h3>
+        </div>
+        <div id="latency" style="background-color:#aaa">
+            <h3>latency</h3>
+        </div>
+        <div id="throughput" style="background-color:#aaa">
+            <h3>throughput</h3>
+        </div>
+    </div>
+    <script src="js/latency.js"></script>
+    <script src="js/throughput.js"></script>
+    <script src="js/packetloss.js"></script>
+</body>
+
+</html>
